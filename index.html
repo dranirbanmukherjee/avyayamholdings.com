@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Avyayam Holdings</title>
+    <meta name="description" content="Avyayam Holdings — advisory, incubation, and investments. Kolkata, New Delhi, Singapore.">
+    <meta name="theme-color" content="#faf8f5" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#141210" media="(prefers-color-scheme: dark)">
+    <link rel="canonical" href="https://www.avyayamholdings.com/">
+    <!-- Source: https://github.com/dranirbanmukherjee/avyayamholdings -->
+    <!-- Papers: https://www.avyayamholdings.com/papers/ -->
+    <!-- Machine-readable paper list: https://www.avyayamholdings.com/llms.txt -->
+    <link rel="llms-txt" href="/llms.txt">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>अ</text></svg>">
+    <meta property="og:title" content="Avyayam Holdings">
+    <meta property="og:description" content="Advisory, incubation, and investments. Kolkata, New Delhi, Singapore.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.avyayamholdings.com/">
+    <meta property="og:image" content="https://www.avyayamholdings.com/logo.jpg">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Avyayam Holdings",
+        "url": "https://www.avyayamholdings.com",
+        "description": "Advisory, incubation, and investments.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "60 Paya Lebar Road, #06-028, Paya Lebar Square",
+            "addressLocality": "Singapore",
+            "postalCode": "409051",
+            "addressCountry": "SG"
+        },
+        "email": "anirban@avyayamholdings.com",
+        "areaServed": ["Kolkata", "New Delhi", "Singapore"]
+    }
+    </script>
+    <style>
+        :root {
+            --bg: #faf8f5;
+            --fg: #1a1a1a;
+            --fg-muted: #7a756f;
+            --accent: #96503d;
+            --serif: Georgia, 'Times New Roman', serif;
+            --sans: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #141210;
+                --fg: #e8e4df;
+                --fg-muted: #8a8580;
+                --accent: #c4956a;
+            }
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            color: var(--fg);
+            font-family: var(--sans);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Hero */
+
+        .hero {
+            min-height: 55vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: clamp(2rem, 5vw, 4rem);
+            text-align: center;
+        }
+
+        .hero .logo {
+            width: clamp(88px, 13vw, 132px);
+            height: clamp(88px, 13vw, 132px);
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center 28%;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero h1 {
+            font-family: var(--serif);
+            font-size: clamp(2.5rem, 8vw, 5.5rem);
+            font-weight: normal;
+            letter-spacing: 0.02em;
+            line-height: 1.1;
+            margin: 0;
+        }
+
+        .hero .descriptor {
+            font-family: var(--sans);
+            font-size: clamp(0.75rem, 1.4vw, 1rem);
+            font-weight: 400;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--fg-muted);
+            margin-top: 1.75rem;
+        }
+
+        /* Sections */
+
+        section {
+            padding: clamp(3rem, 6vh, 5rem) clamp(1.5rem, 5vw, 3rem);
+        }
+
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid var(--fg-muted);
+            opacity: 0.3;
+            max-width: 3rem;
+            margin: 0 auto;
+        }
+
+        /* About */
+
+        .about p {
+            font-size: clamp(1rem, 1.2vw, 1.125rem);
+            line-height: 1.75;
+            margin: 0 0 1.5em;
+        }
+
+        .about p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Contact */
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            color: var(--fg);
+            text-decoration: none;
+            border-bottom: 1px solid var(--fg-muted);
+            transition: border-color 0.2s;
+        }
+
+        .contact a:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .contact p {
+            font-size: clamp(0.9375rem, 1.1vw, 1.0625rem);
+            line-height: 1.75;
+            margin: 0 0 1.25em;
+        }
+
+        .contact .label {
+            font-size: 0.8125rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--fg-muted);
+            margin-bottom: 0.5em;
+        }
+
+        /* Footer */
+
+        footer {
+            padding: clamp(3rem, 6vh, 5rem) clamp(1.5rem, 5vw, 3rem);
+            text-align: center;
+        }
+
+        .verse {
+            max-width: 640px;
+            margin: 0 auto 3rem;
+        }
+
+        .devanagari {
+            font-size: clamp(1.0625rem, 1.3vw, 1.1875rem);
+            line-height: 1.9;
+            margin: 0 0 1.25em;
+        }
+
+        .translation {
+            font-family: var(--serif);
+            font-style: italic;
+            font-size: clamp(0.9375rem, 1.1vw, 1.0625rem);
+            line-height: 1.75;
+            color: var(--fg-muted);
+            margin: 0 0 0.75em;
+        }
+
+        .attribution {
+            font-size: 0.8125rem;
+            letter-spacing: 0.08em;
+            color: var(--fg-muted);
+            margin: 0;
+        }
+
+        .copyright {
+            font-size: 0.75rem;
+            letter-spacing: 0.06em;
+            color: var(--fg-muted);
+            margin: 0;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <img src="logo.jpg" alt="Avyayam Holdings" class="logo" width="120" height="120">
+        <h1>Avyayam Holdings</h1>
+        <p class="descriptor">Advisory&ensp;&middot;&ensp;Incubation&ensp;&middot;&ensp;Investments</p>
+    </section>
+
+    <hr>
+
+    <footer>
+        <div class="verse">
+            <p class="devanagari">नाहं प्रकाशः सर्वस्य योगमायासमावृतः ।<br>मूढोऽयं नाभिजानाति लोको मामजमव्ययम् ॥</p>
+            <p class="attribution">— भगवद्गीता ७.२५</p>
+        </div>
+        <p class="copyright">Avyayam Holdings is a private investment holding company. It is not open to investment by the general public.<br>Any information presented here is general in nature and does not constitute investment advice.</p>
+        <p class="copyright">60 Paya Lebar Road, #06-028, Paya Lebar Square, Singapore 409051</p>
+        <p class="copyright">&copy; 2025 Avyayam Holdings (UEN: 53505987J)</p>
+    </footer>
+
+</body>
+</html>
