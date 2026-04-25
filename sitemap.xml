@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.avyayamholdings.com/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.avyayamholdings.com/llms.txt</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-04-25</lastmod>
   </url>
   <!-- Published Papers -->
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-RCT-2026-Copyright_Laundering.pdf</loc></url>
@@ -18,6 +18,7 @@
   <url><loc>https://www.avyayamholdings.com/papers/Fisar_EtAl-MNS-2024-Reproducibility.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Yin_Boughanmi_Mukherjee-SSR-2024-Meta_Learning.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Chang_Mukherjee_Chattopadhyay-JMR-2023-Voice_Numerosity.pdf</loc></url>
+  <url><loc>https://www.avyayamholdings.com/papers/Chang_Mukherjee_Chattopadhyay-CMR-2023-Boosting_Persuasion.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Moon_Tuli_Mukherjee-JMK-2023-Advertising_Disclosure.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-CMR-2023-Creative_Frontier.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Gielens_Dekimpe_Mukherjee_Tuli-IJR-2023-Private_Label.pdf</loc></url>
@@ -35,7 +36,7 @@
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-ARX-2025-Agentic_AI.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-ARX-2024-AI_Expert_Creativity.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-ARX-2026-Distributional_Distinctiveness.pdf</loc></url>
-  <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang_Gupta-SSR-2025-Bridging_Gap.pdf</loc></url>
+  <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang_Gupta-SSR-2026-BRIDGE.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-ARX-2024-CAVIAR.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-ARX-2025-Parrots_Song_MMD.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Xiao-SSR-2024-Dalal_Street.pdf</loc></url>
@@ -44,14 +45,14 @@
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-SSR-2025-Emotional_Appeals.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-SSR-2025-Engineering_Rivalry.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Kadiyali-INK-Forecasting_Motion_Picture.pdf</loc></url>
-  <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-SSR-2025-Custom_To_Code.pdf</loc></url>
+  <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-SSR-2026-Custom_To_Code.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-ARX-2024-Heuristic_Reasoning.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-SSR-2024-IP_Piracy.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Xiao_Chang_Wang_Contractor-SSR-2017-Plebeian_Bias.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-SSR-2026-Pro_Forma_Copyright.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee-ARX-2024-Psittacines_Novelty.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee-ARX-2024-Safeguarding_Marketing.pdf</loc></url>
-  <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-SSR-2026-Shield_And_Blindfold.pdf</loc></url>
+  <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-SSR-2026-Private_Again.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Chang-ARX-2024-Silico_Centric_ToM.pdf</loc></url>
   <url><loc>https://www.avyayamholdings.com/papers/Mukherjee_Bonfrer-SSR-2013-Macro_Expenditure.pdf</loc></url>
 </urlset>
